@@ -1,0 +1,32 @@
+/* ul li:nth-child(odd) { */
+/* seleccionar 1 si 1 no igual que arriba selecciona numeros nones*/
+/* border: 1px solid red; */
+/* } */
+/* ul li:nth-child(even) { */
+/* seleccionar 1 si 1 no selecciona numeros pares*/
+/* border: 1px solid red; */
+/* } */
+
+ul li:nth-child(3n + 1) {
+  /* seleccionar 1 si 1 no */
+  border: 1px solid red;
+}
+
+/* 
+Fórmula
+X= Un número
+n= El elemento (child)
+Xn + X
+
+2n + 1 
+2(0) + 1
+2(1) + 1
+2(2) + 1
+...
+
+4n + 1
+4(0) + 1
+4(2) + 1
+4(3) + 1
+...
+*/

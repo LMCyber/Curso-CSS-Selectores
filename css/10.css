@@ -1,0 +1,13 @@
+a[href^='http'] {
+  /* Inicien con.... */
+  color: red;
+}
+
+a[href$='.com'] {
+  /* Terminen con... */
+  color: red;
+}
+
+input[type='tel'] {
+  border: 5px solid red;
+}
